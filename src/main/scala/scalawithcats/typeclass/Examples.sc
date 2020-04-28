@@ -6,3 +6,4 @@ Json.toJson(Person("Dave", "dave@example.com"))
 Person("John", "john@example.com").toJson
 
 implicitly[JsonWriter[String]]
+Json.toJson(Option("A string"))
